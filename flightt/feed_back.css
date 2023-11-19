@@ -1,0 +1,62 @@
+
+body {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background-color:azure;
+      padding: 20px;
+    width: 40%;
+    height: 78vh;
+    margin-top: 13px;
+    border-radius: 8px;
+    background-image: url('flight.png');
+    background-size: 100% 100%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    overflow: scroll;
+  }
+  
+  label {
+      display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  textarea {
+      height: 11vh;
+      width:430px;
+      margin: auto;
+      display: block;
+    resize: vertical;
+  }
+  input[type="radio"] {
+  
+      margin-left: -150px; 
+      margin-top: 10px;
+    }
+    
+  button {
+    background-color:teal;
+    color:azure;
+    padding: 10px 15px;
+  margin-top: 5px;
+    border-radius: 7px;
+    margin-left: 230px;
+  }
+  
+  button:hover {
+    background-color: teal;
+  }
+  
