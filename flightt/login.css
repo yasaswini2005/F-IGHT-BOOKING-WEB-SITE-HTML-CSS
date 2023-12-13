@@ -1,0 +1,49 @@
+.l {
+  
+    background-size:100% 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('sky.jpg');
+    background-size: 100% 100%;
+  }
+  
+form {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    overflow:scroll;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-image: url('flight.png');
+        background-size: 100% 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 11vh;
+    resize: vertical;
+}
+
+button {
+    background-color: teal;
+    color: azure;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-left: 160px;
+}
+.l{
+display: flex;
+flex-direction: column;
+}
