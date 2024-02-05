@@ -1,0 +1,47 @@
+body {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color:azure;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 30px;
+    padding: 20px;
+    width: 35%;
+    background-image: url('flight.png');
+    background-size: 100% 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+
+
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid aliceblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color:teal;
+    color: bisque;
+margin-left: 180px;
+margin-right: auto;
+}
+
+input[type="submit"]:hover {
+    background-color: teal;
+ 
+}

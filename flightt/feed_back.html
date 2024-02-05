@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="feed_back.css">
+</head>
+<script>
+    function fun1 () {
+     var a = document.getElementById("name").value;
+     var b = document.getElementById("email").value;
+     alert(a + " --- " + b);
+
+     document.getElementById("new").innerHTML = "Button Clicked:Response submitted";
+    } 
+ </script>
+
+<body>
+
+    <div class="main">
+<div class="main-in">
+    <h1 >Ticketswift:Fast and Efficient Ticket Booking</h1> 
+   
+    <div class="nav"> 
+        <a href="index.html">HOME</a>
+        <a href="feed_back.html">Feed back</a>
+   
+        <a href="login.html"> LOGIN </a>
+        <a href="sign_up.html">SIGN UP</a>
+    </div>
+  <div class="l">
+    <form action="" method="">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+    
+        <label for="age">Age:</label>
+        <input type="number" id="age" ] required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+    
+        <label>Rating:</label>
+        <input type="radio" id="star1" >
+        <label for="star1">1 star</label>
+        <input type="radio" id="star2" >
+        <label for="star2">2 stars</label>
+        <input type="radio" id="star3">
+        <label for="star3">3 stars</label>
+    
+        <label for="remarks">Remarks:</label>
+        <textarea id="remarks"></textarea>
+        <button onclick="fun1()"> Submit</button>
+    
+      </form>
+
+</div>
+    </div>
+</body>
+</html>
+
