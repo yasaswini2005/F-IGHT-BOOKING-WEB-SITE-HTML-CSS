@@ -1,7 +1,5 @@
 body {
- 
     background-color: azure;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +9,8 @@ body {
 form {
     background-color:azure;
     border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 30px;
     padding: 20px;
     width: 35%;
     background-image: url('flight.png');
@@ -21,6 +21,8 @@ form {
 label {
     display: flex;
     flex-direction: column;
+
+
     margin-bottom: 15px;
 }
 
